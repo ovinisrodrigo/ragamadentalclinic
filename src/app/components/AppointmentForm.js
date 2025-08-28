@@ -79,11 +79,11 @@ function AppointmentForm() {
         </div>
 
         {/* Submit */}
-        <div className="pt-4">
+        <div className="pt-4 flex justify-center">
           <button
             type="button"
             onClick={handleBookNow}
-            className="w-full sm:w-80 mx-auto bg-teal-600 text-white text-lg md:text-xl font-semibold px-8 py-4 rounded-lg shadow-md hover:bg-teal-700 transition-colors"
+            className="w-full sm:w-80 bg-teal-600 text-white text-lg md:text-xl font-semibold px-8 py-4 rounded-lg shadow-md hover:bg-teal-700 transition-colors"
           >
             Book Now
           </button>
